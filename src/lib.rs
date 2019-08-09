@@ -34,9 +34,7 @@
 /// let x: f32 = PrimitiveFrom::from(1e300f64); // UB
 /// ```
 /// 
-pub trait PrimitiveFrom<T>: Copy 
-where
-    T: Copy, 
+pub trait PrimitiveFrom<T>
 {
     fn from(_:T) -> Self;
 }
