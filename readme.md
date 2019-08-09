@@ -1,0 +1,1 @@
+Provides a trait PrimitiveFrom that is what From is to Into for num_traits::AsPrimitive
